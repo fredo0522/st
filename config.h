@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Source Code Pro:pixelsize=12.7:antialias=true:autohint=true";
+static char *font = "Source Code Pro:pixelsize=12.8:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
@@ -176,8 +176,9 @@ static Shortcut shortcuts[] = {
         { MODKEY,               XK_minus,           zoom,           {.f = -1} },
         { MODKEY,               XK_0,               zoomreset,      {.f =  0} },
         { MODKEY,               XK_y,               clipcopy,       {.i =  0} },
+        { MODKEY,               XK_c,               clipcopy,       {.i =  0} },
         { MODKEY,               XK_p,               clippaste,      {.i =  0} },
-        { ShiftMask,            XK_Insert,          selpaste,       {.i =  0} },
+        { MODKEY,               XK_v,               clippaste,      {.i =  0} },
         { MODKEY,               XK_Up,              kscrollup,      {.i = 1} },
         { MODKEY,               XK_Down,            kscrolldown,    {.i = 1} },
         { MODKEY,               XK_k,               kscrollup,      {.i = 1} },
