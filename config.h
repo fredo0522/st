@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Source Code Pro:pixelsize=13";
 
 /* Spare fonts */
 static char *font2[] = {
-    "Source Code Pro:pixelsize=15:antialias=true:autohint=true" // Powerline
+    "Iosevka:pixelsize=13" // Powerline
 };
 
 static int borderpx = 2;
