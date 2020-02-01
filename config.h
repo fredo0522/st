@@ -90,22 +90,22 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    "#181818", /* base00 */
-    "#ab4642", /* base08 */
-    "#a1b56c", /* base0B */
-    "#f7ca88", /* base0A */
-    "#7cafc2", /* base0D */
-    "#ba8baf", /* base0E */
-    "#86c1b9", /* base0C */
-    "#d8d8d8", /* base05 */
-    "#585858", /* base03 */
-    "#dc9656", /* base09 */
-    "#282828", /* base01 */
-    "#383838", /* base02 */
-    "#b8b8b8", /* base04 */
-    "#e8e8e8", /* base06 */
-    "#a16946", /* base0F */
-    "#f8f8f8", /* base07 */
+    "#151515", /* base00 */
+    "#ac4142", /* base08 */
+    "#90a959", /* base0B */
+    "#f4bf75", /* base0A */
+    "#6a9fb5", /* base0D */
+    "#aa759f", /* base0E */
+    "#75b5aa", /* base0C */
+    "#d0d0d0", /* base05 */
+    "#505050", /* base03 */
+    "#d28445", /* base09 */
+    "#202020", /* base01 */
+    "#303030", /* base02 */
+    "#b0b0b0", /* base04 */
+    "#e0e0e0", /* base06 */
+    "#8f5536", /* base0F */
+    "#f5f5f5", /* base07 */
 };
 
 /*
