@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Source Code Pro:pixelsize=12.2";
+static char *font = "Source Code Pro:pixelsize=12.8";
 
 /* Spare fonts */
 static char *font2[] = {
