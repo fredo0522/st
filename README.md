@@ -18,6 +18,15 @@ necessary as root):
 
     make clean install
 
+Unistall
+--------
+To unistall st terminal (if necessary as root):
+    make unistall
+
+Patch
+--------
+To patch st terminal:
+    patch -i --merge <patch-name.diff>
 
 Running st
 ----------
